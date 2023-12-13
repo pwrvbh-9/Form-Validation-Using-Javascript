@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<div class="form-box">
+			<div class="form-value">
+				<form action="welcome-page.html" method="" onsubmit="return validate()">
+					<h1>Fill in The Below Form</h1>
+						<div class="input-box">
+							<input type="text" name="FirstName" id="first" autofocus autocomplete="off" required>
+							<label for="first">First Name</label>
+						</div>
+						<div class="input-box">
+							<input type="text" name="LastName" id="last" autocomplete="off" required>
+							<label for="last">Last Name</label>	
+						</div>
+						<div class="input-box">
+							<input type="tel" name="PhoneNumber" id="phone" autocomplete="off" required>
+							<label for="phone">Phone</label>
+						</div>
+						<div class="input-box"> 
+							<input type="text" name="UserName" id="uname" autocomplete="off" required>
+							<label for="username">Username</label>
+						</div>
+						<div class="input-box">
+							<input type="password" name="Password" id="pass" autocomplete="off" required>
+							<label for="pass">Password</label>
+						</div>
+						<div class="button-container">
+							<button type="submit">Submit</button>
+							<button type="reset">Reset</button>
+						</div>
+				</form>
+			</div>
+		</div>
+	</section>
+<script src="index.js"></script>
+</body>
+</html>
